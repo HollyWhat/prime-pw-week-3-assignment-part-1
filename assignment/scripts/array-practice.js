@@ -119,7 +119,17 @@ console.log('the list is now', favoriteFoods );
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-//.sort
+
+
+// put it alphabetical order first
+let sortFoods = favoriteFoods.sort(); 
+console.log('foods in alpha order', sortFoods );
+ 
+// now reverse to go backwards
+
+ let reverseFoods = sortFoods.reverse();
+console.log('favortie foods in reverse', reverseFoods );
+
 
 
 // 4.g (STRETCH) TODO: Convert your array to a string
