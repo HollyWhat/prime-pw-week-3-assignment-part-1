@@ -91,18 +91,31 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 
+favoriteFoods.unshift("salmon");
+console.log('added salmon to the front', favoriteFoods );
+//list should be: salmon, pierogies, avocado toast, jamabalay, iced cofeee
+
 
 // Example: Remove the first animal using Array.shift
+
 removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
+
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
+
+removedFood = favoriteFoods.shift();
+console.log("removed first food item", removedFood ); // should be salmon
+console.log('the list is now', favoriteFoods );
+
+
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -112,9 +125,17 @@ console.log('The animals are now', animalArray);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+let stringList = favoriteFoods.toString();
+console.log('testing string list', stringList );
+// need to still add the 'and' between words
+
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+let newArray = favoriteFoods + animalArray; 
+
+console.log('testing new array', newArray);
