@@ -32,7 +32,6 @@ console.log('Length of my favorite food:', favoriteFoods.length);
 
 
 
-
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
