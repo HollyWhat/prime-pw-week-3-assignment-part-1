@@ -116,6 +116,9 @@ console.log('the list is now', favoriteFoods );
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
+/// use splice? 
+
+
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -146,6 +149,6 @@ console.log('testing string list', stringList );
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
-let newArray = favoriteFoods + animalArray; 
 
+let newArray = favoriteFoods + animalArray; 
 console.log('testing new array', newArray);
